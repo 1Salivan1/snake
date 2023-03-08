@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap');
+
+
+$h2fs: 30px;
+$description: 20px;
+
+body {
+    margin: 0;
+    font-family: "Barlow";
+    background-color: rgb(26, 26, 26);
+    color: white;
+    h1 {
+        margin-top: 0;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.wrapper {
+    min-width: 1700px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    padding-top: 30px;
+    height: 100vh;
+    background: url('../img/back.jpg');
+    .header__list {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 200px;
+        .header__link {
+            font-size: 20px;
+            position: relative;
+            &:before {
+                content: '';
+                width: 100%;
+                height: 1px;
+                background-color: white;
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                transform: scaleX(0);
+            }
+            &:hover::before {
+                transform: scaleX(1);
+                transition: transform 0.2s;
+            }
+        }
+        li {
+            list-style-type: none;
+            &:not(:last-child) {
+                margin-right: 100px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .header__header {
+        font-size: 60px;
+        width: 50%;
+        margin-top: 0;
+    }
+    .header__button {
+        background-color: rgba(26, 26, 26, 0);
+        color: white;
+        font-size: 25px;
+        border: 3px solid white;
+        padding: 20px 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 7px 3px 43px 5px rgb(16, 207, 16);
+            transition: 0.2s;
+        }
+    }
+}
+
+.services {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .services__header {
+        font-size: $h2fs;
+        margin-top: 0;
+    }
+    .services__description {
+        font-size: $description;
+    }
+
+}
+
+.python {
+    padding-bottom: 100px;
+    .python__content {
+        display: flex;
+    }
+    .python__header {
+        font-size: $h2fs;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .python__name {
+        font-size: $h2fs;
+    }
+    .python__description {
+        font-size: $description;
+        width: 40%;
+    }
+}
+
+.milk {
+    padding-bottom: 100px;
+    .milk__content {
+        display: flex;
+    }
+    .milk__header {
+        font-size: $h2fs;
+    } 
+    .milk__description {
+        display: flex;
+        width: 40%;
+        font-size: $description;
+    }
+}
+
+.gecko {
+    padding-bottom: 100px;
+    .gecko__content {
+        display: flex;
+    }
+    .gecko__header {
+        font-size: $h2fs;
+    }
+    .gecko__description {
+        font-size: $description;
+        width: 40%;
+    }
+}
+
+.iguana {
+    padding-bottom: 100px;
+    .iguana__content {
+        display: flex;
+    }
+    .iguana__header {
+        font-size: $h2fs;
+    }
+    .iguana__description {
+        font-size: $description;
+        width: 40%;
+    }
+}
+
+.shop {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url('../img/back2.png');
+    .shop__header {
+        font-size: $h2fs;
+    }
+    .shop__description {
+        font-size: $description;
+        margin-bottom: 40px;
+    }
+    .shop__button {
+        background-color: rgba(26, 26, 26, 0);
+        color: white;
+        font-size: 25px;
+        border: 3px solid white;
+        padding: 20px 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 7px 3px 43px 5px rgb(16, 207, 16);
+            transition: 0.2s;
+        }
+    }
+}
+
+.footer {
+    background-color: rgb(17, 17, 17);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    ul {
+        flex-direction: column;
+        padding-left: 0;
+        li {
+            list-style-type: none;
+        }
+    }
+    .footer__content {
+        .footer__description {
+            margin-bottom: 0;
+        }
+    }
+}
