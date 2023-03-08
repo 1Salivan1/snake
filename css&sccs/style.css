@@ -81,7 +81,7 @@ body h3 {
   cursor: pointer;
 }
 .header .header__button:hover {
-  box-shadow: 7px 3px 43px 5px rgb(16, 207, 16);
+  box-shadow: 2px 2px 20px 1px rgb(16, 207, 16);
   transition: 0.2s;
 }
 
@@ -103,6 +103,7 @@ body h3 {
 }
 .python .python__content {
   display: flex;
+  justify-content: space-between;
 }
 .python .python__header {
   font-size: 30px;
@@ -122,6 +123,7 @@ body h3 {
 }
 .milk .milk__content {
   display: flex;
+  justify-content: space-between;
 }
 .milk .milk__header {
   font-size: 30px;
@@ -137,6 +139,7 @@ body h3 {
 }
 .gecko .gecko__content {
   display: flex;
+  justify-content: space-between;
 }
 .gecko .gecko__header {
   font-size: 30px;
@@ -151,6 +154,7 @@ body h3 {
 }
 .iguana .iguana__content {
   display: flex;
+  justify-content: space-between;
 }
 .iguana .iguana__header {
   font-size: 30px;
@@ -183,7 +187,7 @@ body h3 {
   cursor: pointer;
 }
 .shop .shop__button:hover {
-  box-shadow: 7px 3px 43px 5px rgb(16, 207, 16);
+  box-shadow: 2px 2px 20px 1px rgb(16, 207, 16);
   transition: 0.2s;
 }
 
