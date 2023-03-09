@@ -35,6 +35,7 @@ body {
     padding-top: 30px;
     height: 100vh;
     background: url('../img/back.jpg');
+    padding: 50px;
     .header__list {
         padding: 0;
         display: flex;
@@ -53,6 +54,7 @@ body {
                 left: 0;
                 bottom: -5px;
                 transform: scaleX(0);
+                transition: 0.2s;
             }
             &:hover::before {
                 transform: scaleX(1);
@@ -83,6 +85,7 @@ body {
         padding: 20px 30px;
         border-radius: 15px;
         cursor: pointer;
+        transition: 0.2s;
         &:hover {
             box-shadow: 2px 2px 20px 1px rgb(16, 207, 16);
             transition: 0.2s;
@@ -94,6 +97,8 @@ body {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     .services__header {
         font-size: $h2fs;
         margin-top: 0;
@@ -106,6 +111,7 @@ body {
 
 .python {
     padding-bottom: 100px;
+    padding: 50px;
     .python__content {
         display: flex;
         justify-content: space-between;
@@ -126,6 +132,7 @@ body {
 
 .milk {
     padding-bottom: 100px;
+    padding: 50px;
     .milk__content {
         display: flex;
         justify-content: space-between;
@@ -142,6 +149,7 @@ body {
 
 .gecko {
     padding-bottom: 100px;
+    padding: 50px;
     .gecko__content {
         display: flex;
         justify-content: space-between;
@@ -157,6 +165,7 @@ body {
 
 .iguana {
     padding-bottom: 100px;
+    padding: 50px;
     .iguana__content {
         display: flex;
         justify-content: space-between;
@@ -174,6 +183,8 @@ body {
     text-align: center;
     padding-top: 250px;
     padding-bottom: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-image: url('../img/back2.png');
     .shop__header {
         font-size: $h2fs;
@@ -190,6 +201,7 @@ body {
         padding: 20px 30px;
         border-radius: 15px;
         cursor: pointer;
+        transition: 0.2s;
         &:hover {
             box-shadow: 2px 2px 20px 1px rgb(16, 207, 16);
             transition: 0.2s;
@@ -201,6 +213,7 @@ body {
     background-color: rgb(17, 17, 17);
     padding-top: 10px;
     padding-bottom: 10px;
+    padding: 50px;
     a {
         color: white;
         text-decoration: none;

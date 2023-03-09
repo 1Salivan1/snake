@@ -1,0 +1,208 @@
+@media screen and (max-width:824px) {
+    .header {
+        padding-bottom: 100px;
+        padding-bottom: 300px;
+        .header__list {
+            .header__link {
+                font-size: 35px;
+            }
+        }
+        .header__header {
+            font-size: 70px;
+        }
+        .header__button {
+            font-size: 45px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .services {
+        .services__header {
+            font-size: 70px;
+        }
+        .services__description {
+            font-size: 40px;
+        }
+    }
+
+    .python {
+        .python__header {
+            font-size: 70px;
+        }
+        .python__text {
+            .python__name {
+                font-size: 45px;
+            }
+            .python__description {
+                width: 100%;
+                font-size: 40px;
+            }
+        }
+        .python__img {
+            width: 100%;
+        }
+    }
+
+    .milk {
+        .milk__header {
+            font-size: 45px;
+        }
+        .milk__description {
+            font-size: 40px;
+            width: 100%;
+        }
+    }
+
+    .gecko {
+        .gecko__header {
+            font-size: 45px;
+        }
+        .gecko__description {
+            font-size: 40px;
+            width: 100%;
+        }
+    }
+
+    .iguana {
+        .iguana__header {
+            font-size: 45px;
+        }
+        .iguana__description {
+            font-size: 40px;
+            width: 100%;
+        }
+    }
+
+    .shop {
+        .shop__header {
+            font-size: 70px;
+        }
+        .shop__description {
+            font-size: 45px;
+        }
+        .shop__button {
+            font-size: 45px;
+        }
+    }
+    
+    .footer {
+        .footer__content {
+            .footer__header {
+                font-size: 50px;
+            }
+            .footer__item {
+                font-size: 40px;
+            }
+            .footer__description {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .wrapper {
+        min-width: 1000px;
+    }
+
+    .header {
+        padding-bottom: 100px;
+        padding-bottom: 300px;
+        .header__list {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            .header__link {
+                font-size: 50px;
+            }
+            li {
+                &:not(:last-child) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .header__header {
+            font-size: 75px;
+            width: 100%;
+        }
+        .header__button {
+            font-size: 45px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .python {
+        .python__header {
+            font-size: 70px;
+        }
+        .python__content {
+            flex-direction: column;
+            align-items: center;
+            .python__text {
+                .python__name {
+                    font-size: 45px;
+                }
+                .python__description {
+                    width: 100%;
+                    font-size: 40px;
+                }
+            }
+            .python__img {
+                width: 50%;
+            }
+        }
+    }
+
+    .milk {
+        .milk__content {
+            flex-direction: column;
+            align-items: center;
+            .milk__header {
+                font-size: 45px;
+            }
+            .milk__description {
+                font-size: 40px;
+                width: 100%;
+            }
+            .milk__img {
+                width: 50%;
+            }
+        }
+    }
+
+    .gecko {
+        .gecko__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .gecko__header {
+                font-size: 45px;
+            }
+            .gecko__description {
+                font-size: 40px;
+                width: 100%;
+            }
+            .milk__img {
+                width: 50%;
+            }
+        }
+    }
+
+    .iguana {
+        .iguana__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .iguana__header {
+                font-size: 45px;
+            }
+            .iguana__description {
+                font-size: 40px;
+                width: 100%;
+            }
+            .iguana__img {
+                width: 50%;
+            }
+        }
+    }
+}

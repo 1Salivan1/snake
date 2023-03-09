@@ -1,0 +1,163 @@
+@media screen and (max-width: 824px) {
+  .header {
+    padding-bottom: 100px;
+    padding-bottom: 300px;
+  }
+  .header .header__list .header__link {
+    font-size: 35px;
+  }
+  .header .header__header {
+    font-size: 70px;
+  }
+  .header .header__button {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .services .services__header {
+    font-size: 70px;
+  }
+  .services .services__description {
+    font-size: 40px;
+  }
+  .python .python__header {
+    font-size: 70px;
+  }
+  .python .python__text .python__name {
+    font-size: 45px;
+  }
+  .python .python__text .python__description {
+    width: 100%;
+    font-size: 40px;
+  }
+  .python .python__img {
+    width: 100%;
+  }
+  .milk .milk__header {
+    font-size: 45px;
+  }
+  .milk .milk__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .gecko .gecko__header {
+    font-size: 45px;
+  }
+  .gecko .gecko__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .iguana .iguana__header {
+    font-size: 45px;
+  }
+  .iguana .iguana__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .shop .shop__header {
+    font-size: 70px;
+  }
+  .shop .shop__description {
+    font-size: 45px;
+  }
+  .shop .shop__button {
+    font-size: 45px;
+  }
+  .footer .footer__content .footer__header {
+    font-size: 50px;
+  }
+  .footer .footer__content .footer__item {
+    font-size: 40px;
+  }
+  .footer .footer__content .footer__description {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper {
+    min-width: 1000px;
+  }
+  .header {
+    padding-bottom: 100px;
+    padding-bottom: 300px;
+  }
+  .header .header__list {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .header .header__list .header__link {
+    font-size: 50px;
+  }
+  .header .header__list li:not(:last-child) {
+    margin-right: 0;
+  }
+  .header .header__header {
+    font-size: 75px;
+    width: 100%;
+  }
+  .header .header__button {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .python .python__header {
+    font-size: 70px;
+  }
+  .python .python__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .python .python__content .python__text .python__name {
+    font-size: 45px;
+  }
+  .python .python__content .python__text .python__description {
+    width: 100%;
+    font-size: 40px;
+  }
+  .python .python__content .python__img {
+    width: 50%;
+  }
+  .milk .milk__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .milk .milk__content .milk__header {
+    font-size: 45px;
+  }
+  .milk .milk__content .milk__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .milk .milk__content .milk__img {
+    width: 50%;
+  }
+  .gecko .gecko__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gecko .gecko__content .gecko__header {
+    font-size: 45px;
+  }
+  .gecko .gecko__content .gecko__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .gecko .gecko__content .milk__img {
+    width: 50%;
+  }
+  .iguana .iguana__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iguana .iguana__content .iguana__header {
+    font-size: 45px;
+  }
+  .iguana .iguana__content .iguana__description {
+    font-size: 40px;
+    width: 100%;
+  }
+  .iguana .iguana__content .iguana__img {
+    width: 50%;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
